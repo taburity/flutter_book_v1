@@ -1,1 +1,1 @@
-Projeto FlutterBook para aulas da turma DAM 2024.2 do curso de BCC da UFAPE.
+Projeto FlutterBook para aulas da disciplina de Desenvolvimento de Aplicações Móveis (DAM) do curso de BCC da UFAPE.
