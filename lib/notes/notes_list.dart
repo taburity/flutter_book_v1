@@ -15,7 +15,7 @@ class NotesList extends StatelessWidget {
         floatingActionButton : FloatingActionButton(
           child : Icon(Icons.add, color : Colors.white),
           onPressed : () async {
-            NotesModel model = Provider.of<NotesModel>(context, listen: false);
+            NotesModel model = context.read<NotesModel>();
             model.entityBeingEdited = Note(
               title: '',
               content: '',
